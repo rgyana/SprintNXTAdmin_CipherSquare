@@ -1,0 +1,27 @@
+<section id="content-wrapper">
+    <div class="welcome-bg d-flex justify-content-center align-items-center text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- <h2 class="content-title">Welcome to SprintNXT Dashboard</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Venenatis in id varius morbi nunc. Ullamcorper aliquet
+                    tristique ornare amet nec.</p>
+                <div class="mt-5"><img src="assets\img\welcome.png"></div>
+                <button type="submit" class="kyc-btn mt-5">Complete your KYC</button> -->
+
+
+                <!-- <div *ngIf=kycListData>
+                    {{kycListData | json}}
+                </div> -->
+
+                <!-- <div *ngIf=filteredKycListData>
+                    {{filteredKycListData | json}}
+                </div> -->
+
+                <div *ngIf=kycDetailsById>
+                    {{kycDetailsById?.pan | json}}
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

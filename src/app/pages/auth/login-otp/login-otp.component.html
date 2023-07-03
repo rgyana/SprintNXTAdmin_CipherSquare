@@ -1,0 +1,21 @@
+<div class="login-form">
+
+    <form class="custom-login" [formGroup]="otpInputForm" (ngSubmit)="verifyOtpButton()">
+        <h2 class="mb-5">Enter OTP</h2>
+        <div class="text-center"><img src="assets/img/otp.png"></div>
+        <p class="py-3 px-3">We have sent you OTP to your registered phone
+            number for verification</p>
+        <div class="justify-content-center d-flex">
+            <input class="otp ms-4" type="text" (keyup)="focusNext($event)" maxlength="1" formControlName="input1">
+            <input class="otp ms-4" type="text" (keyup)="focusNext($event)" maxlength="1" formControlName="input2">
+            <input class="otp ms-4" type="text" (keyup)="focusNext($event)" maxlength="1" formControlName="input3">
+            <input class="otp ms-4" type="text" (keyup)="focusNext($event)" maxlength="1" formControlName="input4">
+        </div>
+
+        <button type="submit" class="btn login-btn w-100 border-0 mt-5">Verify</button>
+        <h4 class="text-center my-3">Didn’t received the OTP?<p class="pt-2"><a href="#">Resend
+                    Code</a></p>
+        </h4>
+
+    </form>
+</div>

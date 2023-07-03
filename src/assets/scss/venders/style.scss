@@ -1,0 +1,465 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('../#{$icomoon-font-path}/#{$icomoon-font-family}.eot?n775ys');
+  src:  url('../#{$icomoon-font-path}/#{$icomoon-font-family}.eot?n775ys#iefix') format('embedded-opentype'),
+    url('../#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?n775ys') format('truetype'),
+    url('../#{$icomoon-font-path}/#{$icomoon-font-family}.woff?n775ys') format('woff'),
+    url('../#{$icomoon-font-path}/#{$icomoon-font-family}.svg?n775ys##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-rupee-icon {
+  &:before {
+    content: $icon-rupee-icon; 
+  }
+}
+.icon-call_btn {
+  &:before {
+    content: $icon-call_btn; 
+  }
+}
+.icon-report {
+  &:before {
+    content: $icon-report; 
+  }
+}
+.icon-home {
+  &:before {
+    content: $icon-home; 
+  }
+}
+.icon-matm {
+  &:before {
+    content: $icon-matm; 
+  }
+}
+.icon-store {
+  &:before {
+    content: $icon-store; 
+  }
+}
+.icon-track_comp {
+  &:before {
+    content: $icon-track_comp; 
+  }
+}
+.icon-business_report {
+  &:before {
+    content: $icon-business_report; 
+  }
+}
+.icon-prepaid {
+  &:before {
+    content: $icon-prepaid; 
+  }
+}
+.icon-plan {
+  &:before {
+    content: $icon-plan; 
+  }
+}
+.icon-dth {
+  &:before {
+    content: $icon-dth; 
+  }
+}
+.icon-right_icon {
+  &:before {
+    content: $icon-right_icon; 
+  }
+}
+.icon-upload_file {
+  &:before {
+    content: $icon-upload_file; 
+  }
+}
+.icon-close_btn {
+  &:before {
+    content: $icon-close_btn; 
+  }
+}
+.icon-right_tik {
+  &:before {
+    content: $icon-right_tik; 
+  }
+}
+.icon-successful {
+  &:before {
+    content: $icon-successful; 
+  }
+}
+.icon-traffic_challan {
+  &:before {
+    content: $icon-traffic_challan; 
+  }
+}
+.icon-cable {
+  &:before {
+    content: $icon-cable; 
+  }
+}
+.icon-lpg {
+  &:before {
+    content: $icon-lpg; 
+  }
+}
+.icon-calendar {
+  &:before {
+    content: $icon-calendar; 
+  }
+}
+.icon-otp {
+  &:before {
+    content: $icon-otp; 
+  }
+}
+.icon-postpaid {
+  &:before {
+    content: $icon-postpaid; 
+  }
+}
+.icon-print1 {
+  &:before {
+    content: $icon-print1; 
+  }
+}
+.icon-request {
+  &:before {
+    content: $icon-request; 
+  }
+}
+.icon-water {
+  &:before {
+    content: $icon-water; 
+  }
+}
+.icon-broadband {
+  &:before {
+    content: $icon-broadband; 
+  }
+}
+.icon-cash_deposit {
+  &:before {
+    content: $icon-cash_deposit; 
+  }
+}
+.icon-datacard {
+  &:before {
+    content: $icon-datacard; 
+  }
+}
+.icon-digital_voucher {
+  &:before {
+    content: $icon-digital_voucher; 
+  }
+}
+.icon-download {
+  &:before {
+    content: $icon-download; 
+  }
+}
+.icon-electricity {
+  &:before {
+    content: $icon-electricity; 
+  }
+}
+.icon-emi {
+  &:before {
+    content: $icon-emi; 
+  }
+}
+.icon-emi1 {
+  &:before {
+    content: $icon-emi1; 
+  }
+}
+.icon-expender {
+  &:before {
+    content: $icon-expender; 
+  }
+}
+.icon-filter1 {
+  &:before {
+    content: $icon-filter1; 
+  }
+}
+.icon-fund_request {
+  &:before {
+    content: $icon-fund_request; 
+  }
+}
+.icon-fund_transfer {
+  &:before {
+    content: $icon-fund_transfer; 
+  }
+}
+.icon-gas {
+  &:before {
+    content: $icon-gas; 
+  }
+}
+.icon-hospital {
+  &:before {
+    content: $icon-hospital; 
+  }
+}
+.icon-information {
+  &:before {
+    content: $icon-information; 
+  }
+}
+.icon-insurance {
+  &:before {
+    content: $icon-insurance; 
+  }
+}
+.icon-landline {
+  &:before {
+    content: $icon-landline; 
+  }
+}
+.icon-lic {
+  &:before {
+    content: $icon-lic; 
+  }
+}
+.icon-municipality {
+  &:before {
+    content: $icon-municipality; 
+  }
+}
+.icon-no_data {
+  &:before {
+    content: $icon-no_data; 
+  }
+}
+.icon-cash_withdrawal {
+  &:before {
+    content: $icon-cash_withdrawal; 
+  }
+}
+.icon-device_guide {
+  &:before {
+    content: $icon-device_guide; 
+  }
+}
+.icon-mini_statement {
+  &:before {
+    content: $icon-mini_statement; 
+  }
+}
+.icon-scanner_setting {
+  &:before {
+    content: $icon-scanner_setting; 
+  }
+}
+.icon-aadhaar_pay {
+  &:before {
+    content: $icon-aadhaar_pay; 
+  }
+}
+.icon-balance_enquiry {
+  &:before {
+    content: $icon-balance_enquiry; 
+  }
+}
+.icon-verified {
+  &:before {
+    content: $icon-verified; 
+  }
+}
+.icon-back-arrow {
+  &:before {
+    content: $icon-back-arrow; 
+  }
+}
+.icon-print {
+  &:before {
+    content: $icon-print; 
+  }
+}
+.icon-search {
+  &:before {
+    content: $icon-search; 
+  }
+}
+.icon-add_account {
+  &:before {
+    content: $icon-add_account; 
+  }
+}
+.icon-delete {
+  &:before {
+    content: $icon-delete; 
+  }
+}
+.icon-filter {
+  &:before {
+    content: $icon-filter; 
+  }
+}
+.icon-plus-icon {
+  &:before {
+    content: $icon-plus-icon; 
+  }
+}
+.icon-next_btn {
+  &:before {
+    content: $icon-next_btn; 
+  }
+}
+.icon-support_eamil {
+  &:before {
+    content: $icon-support_eamil; 
+  }
+}
+.icon-password {
+  &:before {
+    content: $icon-password; 
+  }
+}
+.icon-support {
+  &:before {
+    content: $icon-support; 
+  }
+}
+.icon-user {
+  &:before {
+    content: $icon-user; 
+  }
+}
+.icon-cash_balance {
+  &:before {
+    content: $icon-cash_balance; 
+  }
+}
+.icon-aeps_btn {
+  &:before {
+    content: $icon-aeps_btn; 
+  }
+}
+.icon-dmt_btn {
+  &:before {
+    content: $icon-dmt_btn; 
+  }
+}
+.icon-more_btn {
+  &:before {
+    content: $icon-more_btn; 
+  }
+}
+.icon-payout_btn {
+  &:before {
+    content: $icon-payout_btn; 
+  }
+}
+.icon-recharge_btn {
+  &:before {
+    content: $icon-recharge_btn; 
+  }
+}
+.icon-wallet_transfer_btn {
+  &:before {
+    content: $icon-wallet_transfer_btn; 
+  }
+}
+.icon-bill_payment {
+  &:before {
+    content: $icon-bill_payment; 
+  }
+}
+.icon-credit_card {
+  &:before {
+    content: $icon-credit_card; 
+  }
+}
+.icon-dashboard {
+  &:before {
+    content: $icon-dashboard; 
+  }
+}
+.icon-fastag {
+  &:before {
+    content: $icon-fastag; 
+  }
+}
+.icon-fund {
+  &:before {
+    content: $icon-fund; 
+  }
+}
+.icon-icici_cash_deposit {
+  &:before {
+    content: $icon-icici_cash_deposit; 
+  }
+}
+.icon-main_balance {
+  &:before {
+    content: $icon-main_balance; 
+  }
+}
+.icon-notification {
+  &:before {
+    content: $icon-notification; 
+  }
+}
+.icon-pan {
+  &:before {
+    content: $icon-pan; 
+  }
+}
+.icon-payment_wallet {
+  &:before {
+    content: $icon-payment_wallet; 
+  }
+}
+.icon-refresh {
+  &:before {
+    content: $icon-refresh; 
+  }
+}
+.icon-services {
+  &:before {
+    content: $icon-services; 
+  }
+}
+.icon-setting {
+  &:before {
+    content: $icon-setting; 
+  }
+}
+.icon-statement {
+  &:before {
+    content: $icon-statement; 
+  }
+}
+.icon-track_complaint {
+  &:before {
+    content: $icon-track_complaint; 
+  }
+}
+.icon-transacion_type {
+  &:before {
+    content: $icon-transacion_type; 
+  }
+}
+

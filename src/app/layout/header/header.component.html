@@ -1,0 +1,60 @@
+<div id="navbar-wrapper">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <a class="navbar-brand" id="sidebar-toggle" (click)="onSidebarToggle()">
+                    <img src="assets\img\menu-icon.png">
+                </a>
+            </div>
+
+            <ul class="navbar-item ml-auto d-flex align-items-center list-none">
+
+                <!-- Searchbox -->
+                <li class="me-3">
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="Search........">
+                        <button class="searchButton" href="#">
+                            <i class="fal fa-search"></i>
+                        </button>
+                    </div>
+                </li>
+                <!-- Searchbox Ends -->
+
+                <!-- Notification -->
+                <li class="me-3">
+                    <div class="notification dropdown dropdown-hover">
+                        <button class="btn" type="button" data-toggle="dropdown" aria-expanded="false">
+                            <img src="assets\img\notification.png">
+                        </button>
+                        <div class="dropdown-menu">
+                            <button class="dropdown-item" type="button">Action</button>
+                            <button class="dropdown-item" type="button">Another action</button>
+                            <button class="dropdown-item" type="button">Something else here</button>
+                        </div>
+                    </div>
+                </li>
+                <!-- Notification -->
+
+                <!-- Profile Dropdown -->
+                <li class="me-3">
+                    <div class="profile dropdown dropdown-hover">
+                        <button class="btn custom-btn" type="button" data-toggle="dropdown" aria-expanded="false">
+                            <img src="assets\img\profile.png"><span class="ps-2">Gaurav Sharma <i
+                                    class="far fa-chevron-down ps-1"></i></span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <button class="dropdown-item" type="button">Action</button>
+                            <button class="dropdown-item" type="button">Another action</button>
+                            <button class="dropdown-item" type="button">Something else here</button>
+                            <button class="dropdown-item" type="button" (click)="logoutButton()">Logout</button>
+                        </div>
+                    </div>
+                </li>
+                <!-- Profile Dropdown Ends -->
+
+
+            </ul>
+        </div>
+    </nav>
+</div>

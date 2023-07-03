@@ -1,0 +1,12 @@
+<div id="wrapper" [ngClass]="{'toggled': isSidebarClosed}">
+
+    <!-- sidebar -->
+    <app-sidebar></app-sidebar>
+
+    <!-- header -->
+    <app-header (sidebarToggleClickEmitter)="fetchSidebarToggleBtnClickValue($event)"></app-header>
+
+    <!-- dynamic content -->
+    <router-outlet></router-outlet>
+
+</div>
